@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore --fix src",
     "installModules": "npm install",
     "generateSchema": "json2ts src/common/config.schema.json src/config.d.ts",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
