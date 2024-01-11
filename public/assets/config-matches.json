@@ -1,22 +1,21 @@
 {
-  "heading": "Crescendo - 2024",
-  "logo": "logo.png",
+  "heading": "Crescendo - 2024 - 0.1",
+  "logo": "gemslogo.png",
   "pages": [
     {
       "name": "Setup",
       "widgets": [
         {
           "name": "Scouter Name",
-          "type": "text",
-          "validation": {
-            "comparison": "greater",
-            "value": 0
-          }
-        },
-        {
-          "name": "Starting Position",
-          "type": "positions",
-          "file": "field.png"
+          "type": "radio",
+          "options": [
+            "Carrie",
+            "Sean",
+            "Cooper",
+            "Sam",
+            "Other"
+          ],
+          "default": 4
         }
       ]
     },
@@ -24,7 +23,7 @@
       "name": "Autonomous",
       "widgets": [
         {
-          "name": "Left Starting Zone",
+          "name": "Leave?",
           "type": "checkbox"
         },
         {
@@ -47,104 +46,26 @@
       "name": "Teleop",
       "widgets": [
         {
-          "name": "Picked Up From",
-          "type": "heading",
-          "colspan": 5,
-          "align": "center"
-        },
-        {
-          "name": "Ground",
-          "type": "spinbox"
-        },
-        {
-          "name": "Source",
-          "type": "spinbox",
-          "row": 2,
-          "col": 3
-        },
-        {
-          "name": "Scoring",
-          "type": "heading",
-          "colspan": 5,
-          "align": "center"
-        },
-        {
           "name": "Speaker Notes",
           "type": "spinbox"
-        },
-        {
-          "name": "Amplified Speaker Notes",
-          "type": "spinbox",
-          "row": 4,
-          "col": 3
         },
         {
           "name": "Amp Notes",
           "type": "spinbox"
         },
         {
-          "name": "Co-op Bonus",
-          "type": "checkbox",
-          "col": 2
-        },
-        {
-          "type": "spacer",
-          "height": 20
-        },
-        {
-          "name": "Defense Rating",
-          "type": "dropdown",
-          "options": [
-            "0 (Not Played)",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5 (Very Effective)"
-          ],
-          "col": 2
-        },
-        {
-          "name": "Tipped",
-          "type": "checkbox",
-          "col": 2
-        }
-      ]
-    },
-    {
-      "name": "Endgame",
-      "widgets": [
-        {
           "name": "End Location",
           "type": "radio",
           "options": [
-            "Onstage and Spotlit",
+            "Harmonized",
             "Onstage",
-            "Parked",
             "None"
           ],
           "default": 3
         },
         {
-          "name": "Failed Climb",
+          "name": "Scored in the trap?",
           "type": "checkbox"
-        },
-        {
-          "name": "Robots Onstage",
-          "type": "spinbox",
-          "max": 3
-        },
-        {
-          "name": "Note Scored in Trap",
-          "type": "checkbox"
-        },
-        {
-          "name": "Mechanical Failures",
-          "type": "text"
-        },
-        {
-          "name": "Comments",
-          "type": "textarea"
         }
       ]
     }
