@@ -2,7 +2,7 @@
   "name": "blackhawks-scouting",
   "homepage": "https://frc4362.github.io/blackhawks-scouting",
   "version": "2024.1 Prerelease",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite",
