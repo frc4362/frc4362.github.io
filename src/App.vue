@@ -8,6 +8,7 @@ import ErrorList from "@/components/ErrorList.vue";
 import { onErrorCaptured } from "vue";
 
 const errors = $ref(new Array<string>());
+const test = 3;
 
 // Set handler to capture errors and push them to an array
 onErrorCaptured(obj => {
