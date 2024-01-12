@@ -1,5 +1,5 @@
 {
-  "heading": "Crescendo - 2024 - 0.1",
+  "heading": "Crescendo - 2024 - 0.2",
   "logo": "gemslogo.png",
   "pages": [
     {
@@ -23,20 +23,12 @@
       "name": "Autonomous",
       "widgets": [
         {
-          "name": "Leave?",
-          "type": "checkbox"
-        },
-        {
-          "type": "spacer",
-          "height": 20
-        },
-        {
-          "name": "Amp Notes",
+          "name": "Speaker Notes",
           "type": "spinbox",
           "prefix": "Auto"
         },
         {
-          "name": "Speaker Notes",
+          "name": "Amp Notes",
           "type": "spinbox",
           "prefix": "Auto"
         }
@@ -61,7 +53,7 @@
             "Onstage",
             "None"
           ],
-          "default": 3
+          "default": 2
         },
         {
           "name": "Scored in the trap?",

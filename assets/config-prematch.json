@@ -1,0 +1,22 @@
+{
+  "heading": "Crescendo - 2024 - Prematch Checklist",
+  "logo": "gemslogo.png",
+  "pages": [
+    {
+      "name": "Pit check",
+      "widgets": [
+        {
+          "name": "Pit Crew Member",
+          "type": "radio",
+          "options": [
+            "Kyle",
+            "Luke",
+            "Chris",
+            "Other"
+          ],
+          "default": 4
+        }
+      ]
+    }
+  ]
+}
