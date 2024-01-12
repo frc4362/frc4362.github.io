@@ -49,7 +49,7 @@ const router = useRouter();
 const page = $ref<InstanceType<typeof FormPage>>();
 const qrContainer = $ref<HTMLDialogElement>();
 const qrData = $computed(() => widgets.toCSVString(widgets.getWidgetsAsCSV(), excludeHeaders));
-const excludeHeaders = $ref(false);
+const excludeHeaders = $ref(true);
 
 function clearForm() {
   widgets.save();
