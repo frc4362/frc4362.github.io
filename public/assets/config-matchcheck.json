@@ -1,6 +1,7 @@
 {
   "heading": "2024 Drive Team Prematch Checklist",
   "logo": "gemslogo.png",
+  "skipTeamSelection": true,
   "pages": [
     {
       "name": "Match check sign-in",
