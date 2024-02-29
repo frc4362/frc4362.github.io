@@ -9,10 +9,20 @@
           "name": "Scouter Name",
           "type": "radio",
           "options": [
-            "Carrie",
-            "Sean",
             "Cooper",
-            "Sam",
+            "Kailin",
+            "Carter",
+            "Konnor",
+            "Aiden",
+            "Josiah",
+            "Kadence",
+            "Danny",
+            "Jack",
+            "Candy",
+            "Sean",
+            "Jeanette",
+            "Lori",
+            "Jim",
             "Other"
           ],
           "default": 4
