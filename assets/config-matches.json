@@ -54,6 +54,9 @@
         {
           "name": "Amp Notes",
           "type": "spinbox"
+        },        {
+          "name": "Fed Notes",
+          "type": "spinbox"
         },
         {
           "name": "End Location",
