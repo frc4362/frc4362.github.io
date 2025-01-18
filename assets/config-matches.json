@@ -9,20 +9,10 @@
           "name": "Scouter Name",
           "type": "radio",
           "options": [
-            "Cooper",
-            "Kailin",
-            "Carter",
-            "Konnor",
-            "Aiden",
-            "Josiah",
-            "Kadence",
-            "Danny",
-            "Jack",
-            "Candy",
+            "Carrie",
             "Sean",
-            "Jeanette",
-            "Lori",
-            "Jim",
+            "Cooper",
+            "Sam",
             "Other"
           ],
           "default": 4
@@ -53,9 +43,6 @@
         },
         {
           "name": "Amp Notes",
-          "type": "spinbox"
-        },        {
-          "name": "Fed Notes",
           "type": "spinbox"
         },
         {

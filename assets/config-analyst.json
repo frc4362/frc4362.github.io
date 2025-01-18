@@ -9,10 +9,10 @@
           "name": "Analyst Name",
           "type": "radio",
           "options": [
-            "Grant",
+            "Carrie",
+            "Sean",
+            "Cooper",
             "Sam",
-            "Kaleb",
-            "Reese",
             "Other"
           ],
           "default": 4
@@ -39,29 +39,25 @@
           }
         },
         {
-          "name": "Shooting Ranges: Subwoofer",
-          "type": "checkbox"
-        },
-        {
-          "name": "Shooting Ranges: Starting Line",
-          "type": "checkbox"
-        },
-        {
-          "name": "Shooting Ranges: Podium",
-          "type": "checkbox"
-        },
-        {
-          "name": "Shooting Ranges: Mid-stage",
-          "type": "checkbox"
-        },
-        {
-          "name": "Shooting Ranges: Back-stage",
-          "type": "checkbox"
+          "name": "Shooting Ranges",
+          "type": "multicheckbox",
+          "options": [
+            "Subwoofer",
+            "Starting line",
+            "Podium",
+            "Mid-stage",
+            "Back-stage"
+          ]
         },
         {
           "name": "Spotlighting?",
           "type": "checkbox"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Analysis",
+      "widgets": [
         {
           "name": "Notes",
           "type": "textarea"

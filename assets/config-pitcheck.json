@@ -11,9 +11,8 @@
           "type": "radio",
           "options": [
             "Kyle",
+            "Luke",
             "Chris",
-            "Will",
-            "Rowan",
             "Other"
           ],
           "default": 4
@@ -39,38 +38,6 @@
             "comparison": "greater",
             "value": 0
           }
-        },
-        {
-          "name": "Battery connected + wires safe? (click)",
-          "type": "checkbox"
-        },
-        {
-          "name": "Limelight Connected",
-          "type": "checkbox"
-        },
-        {
-          "name": "Motor and Canivore status lights good",
-          "type": "checkbox"
-        },
-        {
-          "name": "Absolute encoder status lights good",
-          "type": "checkbox"
-        },
-        {
-          "name": "Roborio status lights good",
-          "type": "checkbox"
-        },
-        {
-          "name": "Climb prepped?",
-          "type": "checkbox"
-        },
-        {
-          "name": "Rollers good",
-          "type": "checkbox"
-        },
-        {
-          "name": "Bumper height / wingnut tightness",
-          "type": "checkbox"
         }
       ]
     }
